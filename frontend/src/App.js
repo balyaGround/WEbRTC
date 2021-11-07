@@ -9,7 +9,7 @@ import Peer from "simple-peer";
 import io from "socket.io-client";
 import "./App.css";
 
-const socket = io.connect("https://3ef9-180-246-175-161.ngrok.io");
+const socket = io.connect("https://server-video-app.herokuapp.com/");
 function App() {
   const [me, setMe] = useState("");
   const [stream, setStream] = useState();
