@@ -30,6 +30,9 @@
   align-content: center;
   margin-top: 10rem;
   margin-left: 10rem;
+  transform: rotateY(180);
+  -webkit-transform: rotateY(180);
+  -moz-transform: rotateY(180);
 }
 
 .caller {
