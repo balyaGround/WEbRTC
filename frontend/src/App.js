@@ -33,7 +33,7 @@ function App() {
     socket.on("me", (id) => {
       setMe(id);
     });
-
+    // coba deploy ah
     socket.on("callUser", (data) => {
       setReceivingCall(true);
       setCaller(data.from);
