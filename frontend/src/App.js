@@ -9,7 +9,7 @@ import Peer from "simple-peer";
 import io from "socket.io-client";
 import "./App.css";
 
-const socket = io.connect("https://server-video-app.herokuapp.com/");
+const socket = io.connect("https://webrtc-dd6e4-default-rtdb.asia-southeast1.firebasedatabase.app");
 function App() {
   const [me, setMe] = useState("");
   const [stream, setStream] = useState();
